@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>
+REGISTER FORM
+</title>
+<style>
+    body{
+        background-image:url("login.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+form{
+    background-image:url("register.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     height:550px;
+     width:450px;
+     border-collapse:collapse;
+     border:2px solid black;
+     padding:15px;
+     text-align:center;
+     border-radius:30px;
+}
+header
+{
+font-family:Algerian;
+color:white;
+font-size:25px;
+}
+label
+{
+color:white;
+font-size:20px;
+font-family:Cambria;
+}
+header:hover{
+color:maroon;
+}
+label:hover{
+    color:red;
+}
+a
+{
+font-size:25px;
+font-family:Cambria;
+color:red;
+text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+.form-center{
+    display:flex;
+    justify-content:center;
+}
+</style>
+</head>
+<body>
+<div class="form-center">
+<form action="REGISTER FORM" METHOD="POST">
+<header><b>REGISTER FORM</b></header><br><br><br>
+<label for="Name">Name:</label>&emsp;
+<input type="text" name="Name"placeholder="Enter your firstname" required><br><br><br>
+<label for="lastname">LastName:</label>&emsp;&emsp;
+<input type="text" name="lastname"placeholder="Enter your lastname" required><br><br><br>
+<label for="gender">Gender:</label>&emsp;
+<input type="radio" name="gender">
+<label for="male">Male</label>&emsp;
+<input type="radio" name="gender">
+<label for="female">Female</label><br><br><br>
+<label for="email">Email:</label>&emsp;
+<input type="text" name="email"placeholder="Enter your email" required><br><br><br>
+<label for="Password">Password:</label>&emsp;
+<input type="Password" name="password"placeholder="Enter your password" required><br><br><br><br>
+<label for="number">MobileNo:</label>&emsp;
+<input type="text" name="number"placeholder="Enter your number" required><br><br><br>
+<b><button><a href="">SUBMIT</a></button>
+<b><button><a href="">CANCEL</a></button></b>
+</form>
+</div>
+</body>
+</html>

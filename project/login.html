@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>LOGIN FORM</title>
+<style>
+    body{
+        background-image:url("login.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+form{
+    background-image:url("images.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+     height:450px;
+     width:550px;
+     border-collapse:collapse;
+     border:2px solid black;
+     padding:15px;
+     text-align:center;
+     border-radius:30px;
+}
+header
+{
+font-family:Algerian;
+color:white;
+font-size:25px;
+}
+header:hover{
+color:maroon;
+}
+label:hover{
+    color:red;
+}
+a:hover{
+    color:red;
+}
+label
+{
+color:white;
+font-size:30px;
+font-family:Cambria;
+}
+a
+{
+font-size:25px;
+font-family:Cambria;
+text-decoration: none;
+}
+.form-center{
+    display:flex;
+    justify-content:center;
+}
+
+::placeholder{
+    font-size:15px;
+    color:black;
+    border-radius:30px;
+    height:25px;
+}
+</style>
+</head>
+<body>
+<div class="form-center">
+<form action="LOGIN FORM" METHOD="POST"><br><br>
+<header><b>LOGIN FORM</b></header><br><br><br>
+<b><label for="Name">NAME:</label></b>&emsp;
+<b><input type="text" name="Name"placeholder="Enter your username" required size="50"></b><br><br>
+<b><label for="Password">PASSWORD:</label></b>&emsp;
+<b><input type="Password" name="password"placeholder="Enter your password" maxlength="10" required size="50"></b><br><br><br><br>
+<b><button><a href="">LOGIN</a></button></b><br><br><br>
+<b><button><a href="">Forgot Password?</a></button></b>
+</form>
+</div>
+</body>
+</html>
